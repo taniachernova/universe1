@@ -21,7 +21,7 @@ const NotificationBarTwo = ({ className, containerFluid, dark }) => {
                 </li>
 
                 <li>
-                  <i className="icon-f-92" />YOU CAN CALL TO PLACE AN ADS
+                  <i className="icon-f-92" />REKLAM VERMEK İÇİN ARAYABİLİRSİNİZ
                 </li>
               </ul>
             </div>

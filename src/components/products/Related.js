@@ -41,7 +41,7 @@ const RelatedProducts = ({categories, types}) => {
             <div className="container-indent">
                 <Container className="container-fluid-custom-mobile-padding">
                     <SectionTitle
-                        title="SIMILAR ESCORTS"
+                        title="BENZER ESKORTLAR"
                         className="text-start"
                         titleClass="tt-title-small"
                     />

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import cogoToast from "cogo-toast";
 import PropTypes from "prop-types";
-import { useProduct } from "@hooks";
+import { useProduct, useWindowSize } from "@hooks";
 import { CURRENCY } from "@utils/constant";
 import { Fragment, useContext } from "react";
 import { CartContext } from "@global/CartContext";
@@ -50,11 +50,23 @@ const ProductOne = ({ product, page, showVariant, className }) => {
   } = useProduct(product);
 
   // const { shoppingCart, addToCart } = useContext(CartContext);
+  const width = useWindowSize();
+  let style;
 
+  if (width <= 768) {
+    // Mobile devices
+    style = { height: "7rem" };
+  } else if (width > 768 && width <= 1024) {
+    // Tablets
+    style = { height: "12rem" };
+  } else {
+    // Web
+    style = { height: "15rem" };
+  }
   return (
     <Fragment>
       <div className={`tt-product thumbprod-center ${className}`}>
-        <div className="tt-image-box">
+        <div className="tt-image-box" style={style}>
           <Link href={slug}>
             <ProductThumb
               thumbs={

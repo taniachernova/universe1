@@ -17,7 +17,7 @@ const ShopGrid = ({
   console.log(products);
   const [windowSize] = useWindowSize();
   const [productPerPage, setProductPerPage] = useState(
-    containerFluid ? 12 : 30
+    containerFluid ? 12 : 24
   );
   const [layout, setLayout] = useState(
     sidebar ? "tt-col-three" : "tt-col-four"

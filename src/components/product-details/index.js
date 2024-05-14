@@ -119,37 +119,37 @@ const ProductDetails = ({ product }) => {
                         <tbody>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Gender:
+                              Cinsiyet:
                             </th>
                             <td className="fw-normal">{gender}</td>
                           </tr>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Age:
+                              Yaş:
                             </th>
                             <td className="fw-normal">{age}</td>
                           </tr>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Eyes:
+                              Göz Rengi:
                             </th>
                             <td className="fw-normal">{details.eyes}</td>
                           </tr>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Hair Color:
+                              Saç:
                             </th>
                             <td className="fw-normal">{details.hair}</td>
                           </tr>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Location:
+                              Konum:
                             </th>
                             <td className="fw-normal">{location}</td>
                           </tr>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Languages:
+                              Dil:
                             </th>
                             <td className="fw-normal">
                               {languages &&
@@ -169,25 +169,25 @@ const ProductDetails = ({ product }) => {
                         <tbody>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Height:
+                              Boy:
                             </th>
                             <td className="fw-normal">{details.height}</td>
                           </tr>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Weight:
+                              Kilo:
                             </th>
                             <td className="fw-normal">{details.weight}</td>
                           </tr>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Ethnicity:
+                              Uyruk:
                             </th>
                             <td className="fw-normal">{ethnicity}</td>
                           </tr>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Size:
+                              Beden:
                             </th>
                             <td className="fw-normal">
                               {details.bust}, {details.waist}, {details.hips}
@@ -195,7 +195,7 @@ const ProductDetails = ({ product }) => {
                           </tr>
                           <tr>
                             <th scope="row" className="fw-medium w-25">
-                              Country
+                              Ülke:
                             </th>
                             <td className="fw-normal">{country}</td>
                           </tr>

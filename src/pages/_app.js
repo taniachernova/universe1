@@ -11,7 +11,7 @@ const Wokiee = ({Component, pageProps}) => {
     return (
         <Fragment>
             <Head>
-                <title>Universe Escort</title>
+                <title>İstanbul Escort - Universe Escort</title>
             </Head>
 
             <CartContextProvider>
