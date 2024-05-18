@@ -4,18 +4,34 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, "assets/scss")],
   },
+  async redirects() {
+    return [
+      {
+        source: "/(.*)",
+        destination: "https://www.universeescort.com/$1",
+        permanent: true,
+        basePath: false,
+      },
+    ];
+  },
+  async rewrites() {
+    return [
+      {
+        source: "/robots.txt",
+        destination: "/api/robots.txt",
+      },
+      {
+        source: "/sitemap.xml",
+        destination: "/api/sitemap.xml",
+      },
+    ];
+  },
   webpack(config, { dev, isServer }) {
     config.module.rules.push({
       test: /\.svg$/,
       use: ["@svgr/webpack"],
     });
-    if (!dev && !isServer) {
-      // Set properties only if commons already exists
-      // if (config.optimization.splitChunks.cacheGroups.commons) {
-      //   config.optimization.splitChunks.cacheGroups.commons.minSize = 0;
-      //   config.optimization.splitChunks.cacheGroups.commons.minChunks = 2;
-      // }
-    }
+
     return config;
   },
 };

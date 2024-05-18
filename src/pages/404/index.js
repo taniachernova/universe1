@@ -1,8 +1,15 @@
 import Link from "next/link";
 import Head from "next/head"; 
-import {Fragment} from "react";
+import { Fragment, useEffect } from "react";
 
 const Page404 = () => {
+    useEffect(() => {
+        // Client-side navigation için URL'yi 404 olarak ayarlamak.
+        if (typeof window !== 'undefined') {
+            window.history.replaceState(null, '', '/404');
+        }
+    }, []);
+
     return (
         <Fragment>
             <Head>
@@ -22,5 +29,15 @@ const Page404 = () => {
         </Fragment>
     );
 };
+
+export async function getStaticProps({ res }) {
+    if (res) {
+        res.statusCode = 404; // Yanıt kodunu 404 olarak ayarlama
+    }
+
+    return {
+        props: {}, // Sayfaya herhangi bir prop göndermeye gerek yok
+    };
+}
 
 export default Page404;

@@ -63,7 +63,7 @@ const CustomHead = ({ title, description, conanical, openGraph, twitter }) => {
       <meta name="keywords" content={metadata.keywords} />
       <meta name="viewport" content={metadata.viewport} />
       <meta
-        http-equiv={metadata.httpEquiv.type}
+        httpEquiv={metadata.httpEquiv.type}
         content={metadata.httpEquiv.content}
       />
       <meta
@@ -74,7 +74,7 @@ const CustomHead = ({ title, description, conanical, openGraph, twitter }) => {
         name="apple-mobile-web-app-capable"
         content={metadata.appleMobileWebAppCapable}
       />
-      <meta http-equiv="X-UA-Compatible" content={metadata.XUACompatible} />
+      <meta httpEquiv="X-UA-Compatible" content={metadata.XUACompatible} />
 
       <meta name="robots" content={metadata.robots} />
 
