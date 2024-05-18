@@ -48,7 +48,6 @@ const ProductDetails = ({ product }) => {
     phone_number,
   } = product;
 
-  console.log("product", product);
   return (
     <Fragment>
       <div className="container-indent">

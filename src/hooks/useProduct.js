@@ -27,7 +27,7 @@ const useProduct = (product) => {
     const isInCompareList = getWishCompareProduct(compareList, product);
     const cartProductQuantity = getCartProductQuantity(shoppingCart, product, productColor, productSize);
 
-    const slug = `/escort/${name.toLowerCase().split(' ').join('-')}`;
+    const slug = `/escorts/${name.toLowerCase().split(' ').join('-')}`;
     const discountedPrice = getDiscountPrice(productPrice, discount);
 
     const productColorHandler = (e) => {

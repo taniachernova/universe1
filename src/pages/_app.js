@@ -1,30 +1,27 @@
-import {Fragment} from "react";
+import { Fragment } from "react";
 import Head from "next/head";
 import CartContextProvider from "@global/CartContext";
 import CompareContextProvider from "@global/CompareContext";
 import ProductsContextProvider from "@global/ProductsContext";
 import WishlistContextProvider from "@global/WishlistContext";
-import 'react-tippy/dist/tippy.css';
+import "react-tippy/dist/tippy.css";
 import "@assets/scss/style.scss";
+import CustomHead from "@components/custom-head";
 
-const Wokiee = ({Component, pageProps}) => {
-    return (
-        <Fragment>
-            <Head>
-                <title>İstanbul Escort - Universe Escort</title>
-            </Head>
+const Wokiee = ({ Component, pageProps }) => {
+  return (
+    <Fragment>
+      <CartContextProvider>
+        <CompareContextProvider>
+          <WishlistContextProvider>
+            <ProductsContextProvider>
+              <Component {...pageProps} />
+            </ProductsContextProvider>
+          </WishlistContextProvider>
+        </CompareContextProvider>
+      </CartContextProvider>
+    </Fragment>
+  );
+};
 
-            <CartContextProvider>
-                <CompareContextProvider>
-                    <WishlistContextProvider>
-                        <ProductsContextProvider>
-                            <Component {...pageProps}/>
-                        </ProductsContextProvider>
-                    </WishlistContextProvider>
-                </CompareContextProvider>
-            </CartContextProvider>
-        </Fragment>
-    );
-}
-
-export default Wokiee
+export default Wokiee;
