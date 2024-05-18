@@ -51,16 +51,12 @@ const ShopGrid = ({
       if (!containerFluid) {
         (windowSize <= 499 && setLayout("tt-col-four")) ||
           (windowSize > 499 && windowSize <= 799 && setLayout("tt-col-four")) ||
-          (windowSize > 800 &&
-            windowSize <= 1024 &&
-            setLayout("tt-col-six")) ||
+          (windowSize > 800 && windowSize <= 1024 && setLayout("tt-col-six")) ||
           (windowSize >= 1025 && setLayout("tt-col-six"));
       } else {
         (windowSize <= 499 && setLayout("tt-col-four")) ||
           (windowSize > 499 && windowSize <= 799 && setLayout("tt-col-four")) ||
-          (windowSize > 800 &&
-            windowSize <= 1024 &&
-            setLayout("tt-col-six")) ||
+          (windowSize > 800 && windowSize <= 1024 && setLayout("tt-col-six")) ||
           (windowSize >= 1025 && setLayout("tt-col-six"));
       }
     } else {
@@ -76,6 +72,15 @@ const ShopGrid = ({
         fluid={containerFluid}
         className="container-fluid-custom-mobile-padding"
       >
+        <h1
+          className="tt-title"
+          style={{
+            fontSize: "24px",
+            paddingTop: "20px",
+          }}
+        >
+          İstanbul Escorts
+        </h1>
         <Row
           className={
             sidebar && sidebarPosition === "right" ? "flex-sm-row-reverse" : ""
