@@ -8,7 +8,7 @@ module.exports = {
     return [
       {
         source: "/(.*)",
-        destination: "https://www.universeescort.com/$1",
+        destination: "https://www.universeescort.com",
         permanent: true,
         basePath: false,
       },
