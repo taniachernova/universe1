@@ -4,16 +4,16 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, "assets/scss")],
   },
-  async redirects() {
-    return [
-      {
-        source: "/(.*)",
-        destination: "https://www.universeescort.com",
-        permanent: true,
-        basePath: false,
-      },
-    ];
-  },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: "/(.*)",
+  //       destination: "https://www.universeescort.com",
+  //       permanent: true,
+  //       basePath: false,
+  //     },
+  //   ];
+  // },
   async rewrites() {
     return [
       {
