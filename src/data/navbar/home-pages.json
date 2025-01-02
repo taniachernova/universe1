@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "text": "Escorts",
+    "link": "/",
+    "submenu": [
+      {
+        "id": 1.1,
+        "title": "İstanbul Escorts",
+        "lists": [
+          {
+            "text": "Adalar Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Arnavutköy Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Ataşehir Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Avcılar Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Bağcılar Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Bahçelievler Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Bakırköy Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Başakşehir Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Bayrampaşa Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Beşiktaş Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Beykoz Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Beylikdüzü Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Beyoğlu Escort",
+            "link": "/",
+            "badge": null
+          },
+
+          {
+            "text": "Maltepe Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Büyükçekmece Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Çatalca Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Çekmeköy Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Esenler Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Esenyurt Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Eyüp Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Fatih Escort",
+            "link": "/",
+            "badge": null
+          }
+        ]
+      },
+      {
+        "id": 1.2,
+        "title": "",
+        "lists": [
+          {
+            "text": "Gaziosmanpaşa Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Güngören Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Kadıköy Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Kağıthane Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Kartal Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Küçükçekmece Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Pendik Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Sancaktepe Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Sarıyer Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Silivri Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Sultanbeyli Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Sultangazi Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Şile Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Şişli Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Tuzla Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Ümraniye Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Üsküdar Escort",
+            "link": "/",
+            "badge": null
+          },
+          {
+            "text": "Zeytinburnu Escort",
+            "link": "/", 
+            "badge": null
+          }
+        ]
+      }
+    ],
+    "mega_menu": true,
+    "promo": "/assets/images/no-placeholder/desktop-menu-promo.png"
+  }
+]
